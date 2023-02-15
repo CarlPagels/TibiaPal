@@ -6,6 +6,7 @@ import { About, ArticleList } from "./routes";
 import { ChakraProvider } from "@chakra-ui/react";
 import { NavBar } from "./components";
 import { NotFound } from "./NotFound";
+import { Donators } from "./routes/Donators";
 
 const NavBarWrapper = () => {
     return (
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
             {
                 path: "/about",
                 element: <About/>,
+            },
+            {
+                path: "/donators",
+                element: <Donators/>,
             },
         ]
     }
