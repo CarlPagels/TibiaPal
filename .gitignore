@@ -149,3 +149,20 @@ cython_debug/
 
 # vsc
 launch.json
+
+!**/glob-import/dir/node_modules
+.DS_Store
+.idea
+*.cpuprofile
+*.local
+ui/.vscode/
+ui/docs/.vitepress/cache
+ui/packages/vite/LICENSE
+ui/dist
+ui/dist-ssr
+ui/explorations
+ui/node_modules
+ui/playground-temp
+ui/temp
+TODOs.md
+.eslintcache
