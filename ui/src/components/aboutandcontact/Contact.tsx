@@ -22,7 +22,8 @@ export const Contact: React.FC = () => {
                 </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-                <Text as="b">
+                <Text align={"center"}>
+                <Text as="b" >
                     In case of any issues, questions, comments or suggestions, please feel free to reach out to me
                     using any
                     of the methods below.
@@ -48,6 +49,7 @@ export const Contact: React.FC = () => {
                 <Highlight query="twitch.tv/Kusnierr" styles={{ px: "2", rounded: "full", bg: "red.100" }}>
                     You can also find me on Twitch, twitch.tv/Kusnierr
                 </Highlight>
+                </Text>
 
             </AccordionPanel>
         </AccordionItem>);
