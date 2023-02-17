@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, Outlet, RouterProvider, } from "react-router-dom";
 import "./index.css";
-import { About, ArticleList } from "./routes";
+import { About, ArticleList, LootSplit } from "./routes";
 import { ChakraProvider } from "@chakra-ui/react";
 import { NavBar } from "./components";
 import { NotFound } from "./NotFound";
@@ -35,6 +35,10 @@ const router = createBrowserRouter([
             {
                 path: "/donators",
                 element: <Donators/>,
+            },
+            {
+                path: "/lootsplit",
+                element: <LootSplit />,
             },
         ]
     }
